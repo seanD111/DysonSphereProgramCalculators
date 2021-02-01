@@ -1,1 +1,1 @@
-# DysonSphereProgramCalculators
+# DysonSphereProgramCalculators (DSPCalc)
