@@ -1,0 +1,153 @@
+[
+  {
+    "reactants": [["iron_ore_vein", 1]],
+    "products": [["iron_ore", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants": [["copper_ore_vein", 1]],
+    "products": [[ "copper_ore", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants": [["stone_ore_vein", 1]],
+    "products": [["stone_ore", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants": [["coal_vein", 1]],
+    "products": [["coal_ore", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["silicon_vein", 1]],
+    "products": [["silicon_ore", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["titanium_vein", 1]],
+    "products": [["titanium_ore", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["kimberlite_vein", 1]],
+    "products": [["kimberlite_ore", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["fractal_silicium_vein", 1]],
+    "products": [["fractal_silicon", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["optical_grating_crystal_vein", 1]],
+    "products": [["optical_grating_crystal", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["spiniform_stalagmite_crystal_vein", 1]],
+    "products": [["spiniform_stalagmite_crystal", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["unipolar_magnet_vein", 1]],
+    "products": [["unipolar_magnet", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["unipolar_magnet_vein", 1]],
+    "products": [["unipolar_magnet", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["organic_crystal_vein", 1]],
+    "products": [["organic_crystal", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants":[["fire_ice_vein", 1]],
+    "products": [["fire_ice", 1]],
+    "duration": 2,
+    "location": ["mining_machine"]
+  },
+  {
+    "reactants": [["iron_ore", 1]],
+    "products": [["iron_ingot", 1]],
+    "duration": 1,
+    "location": ["smelter", "replicator"]
+  },
+  {
+    "reactants": [["iron_ore", 1]],
+    "products": [["magnet", 1]],
+    "duration": 1.5,
+    "location": ["smelter", "replicator"]
+  },
+  {
+    "reactants": [["copper_ore", 1]],
+    "products": [["copper_ingot",1]],
+    "duration": 1,
+    "location": ["smelter", "replicator"]
+  },
+  {
+    "reactants": [["stone_ore", 10]],
+    "products": [["silicon_ore", 1]],
+    "duration": 10,
+    "location": ["smelter", "replicator"]
+  },
+  {
+    "reactants": [["stone_ore", 2]],
+    "products": [["glass", 1]],
+    "duration": 2,
+    "location": ["smelter", "replicator"]
+  },
+  {
+    "reactants":[["water_ocean", 1]],
+    "products": [["water", 1]],
+    "duration": 0.857143,
+    "location": ["water_pump"]
+  },
+  {
+    "reactants":[["crude_oil", 2]],
+    "products": [["refined_oil", 2], ["hydrogen", 1]],
+    "duration": 4,
+    "location": ["oil_refinery"]
+  },
+  {
+    "reactants":[["deuterium_gas_giant", 1]],
+    "products": [["deuterium", -1]],
+    "duration": 1,
+    "location": ["orbit_collector"]
+  },
+  {
+    "reactants":[["hydrogen", 1]],
+    "products": [["deuterium", 1]],
+    "duration": 100,
+    "location": ["fractionator"]
+  },
+  {
+    "reactants":[["hydrogen", 10]],
+    "products": [["deuterium", 1]],
+    "duration": 5,
+    "location": ["miniature_particle_collider"]
+  },
+  {
+    "reactants":[["critical_photon", 2]],
+    "products": [["hydrogen", 2], ["antimatter", 2]],
+    "duration": 2,
+    "location": ["miniature_particle_collider"]
+  },
+
+]

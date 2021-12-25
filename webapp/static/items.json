@@ -1,0 +1,812 @@
+[
+  {
+    "id": "world_generation",
+    "name": "World Generation",
+    "icon": "Icon_Blank.png"
+  },
+  {
+    "id": "log",
+    "name": "Log",
+    "icon": "Icon_Log.png",
+    "stored_energy": 1500000,
+    "chamber_efficiency": 0.9
+  },
+  {
+    "id": "plant_fuel",
+    "name": "Plant Fuel",
+    "icon": "Icon_Plant_Fuel.png",
+    "stored_energy": 500000,
+    "chamber_efficiency": 0.7
+  },
+  {
+    "id": "iron_ore_vein",
+    "name": "Iron Ore Vein",
+    "icon": "Icon_Iron_Ore_Vein.png"
+  },
+  {
+    "id": "copper_ore_vein",
+    "name": "Copper Ore Vein",
+    "icon": "Icon_Copper_Ore_Vein.png"
+  },
+  {
+    "id": "stone_ore_vein",
+    "name": "Stone Ore Vein",
+    "icon": "Icon_Stone_Ore_Vein.png"
+  },
+  {
+    "id": "coal_ore_vein",
+    "name": "Coal Ore Vein",
+    "icon": "Icon_Coal_Ore_Vein.png"
+  },
+  {
+    "id": "silicon_ore_vein",
+    "name": "Silicon Ore Vein",
+    "icon": "Icon_Silicon_Ore_Vein.png"
+  },
+  {
+    "id": "titanium_ore_vein",
+    "name": "Titanium Ore Vein",
+    "icon": "Icon_Titanium_Ore_Vein.png"
+  },
+  {
+    "id": "kimberlite_ore_vein",
+    "name": "Kimberlite Ore Vein",
+    "icon": "Icon_Kimberlite_Ore_Vein.png"
+  },
+  {
+    "id": "fractal_silicium_vein",
+    "name": "Fractal Silicium Vein",
+    "icon": "Icon_Fractal_Silicium_Vein.png"
+  },
+  {
+    "id": "optical_grating_crystal_vein",
+    "name": "Optical Grating Crystal Vein",
+    "icon": "Icon_Optical_Grating_Crystal_Vein.png"
+  },
+  {
+    "id": "spiniform_stalagmite_crystal_vein",
+    "name": "Spiniform Stalagmite Crystal Vein",
+    "icon": "Icon_Spiniform_Stalagmite_Crystal_Vein.png"
+  },
+  {
+    "id": "unipolar_magnet_vein",
+    "name": "Unipolar Magnet Vein",
+    "icon": "Icon_Unipolar_Magnet_Vein.png"
+  },
+  {
+    "id": "fire_ice_vein",
+    "name": "Fire Ice Vein",
+    "icon": "Icon_Fire_Ice_Vein.png"
+  },
+  {
+    "id": "organic_crystal_vein",
+    "name": "Organic Crystal Vein",
+    "icon": "Icon_Organic_Crystal_Vein.png"
+  },
+  {
+    "id": "water_ocean",
+    "name": "Water (Ocean)",
+    "icon": "Icon_Water_Ocean.png"
+  },
+  {
+    "id": "deuterium_gas_giant",
+    "name": "Deuterium (Gas Giant)",
+    "icon": "Icon_Deuterium_Gas_Giant.png"
+  },
+  {
+    "id": "sulfuric_acid_ocean",
+    "name": "Sulfuric Acid (Ocean)",
+    "icon": "Icon_Sulfuric_Acid_Ocean.png"
+  },
+  {
+    "id": "crude_oil_seep",
+    "name": "Crude Oil (Seep)",
+    "icon": "Icon_Crude_Oil_Seep.png"
+  },
+
+
+  {
+    "id": "iron_ore",
+    "name": "Iron Ore",
+    "icon": "Icon_Iron_Ore.png"
+  },
+  {
+    "id": "copper_ore",
+    "name": "Copper Ore",
+    "icon": "Icon_Copper_Ore.png"
+  },
+  {
+    "id": "stone_ore",
+    "name": "Stone Ore",
+    "icon": "Icon_Stone_Ore.png"
+  },
+  {
+    "id": "coal_ore",
+    "name": "Coal Ore",
+    "icon": "Icon_Coal_Ore.png"
+  },
+  {
+    "id": "silicon_ore",
+    "name": "Silicon Ore",
+    "icon": "Icon_Silicon_Ore.png"
+  },
+  {
+    "id": "titanium_ore",
+    "name": "Titanium Ore",
+    "icon": "Icon_Titanium_Ore.png"
+  },
+  {
+    "id": "kimberlite_ore",
+    "name": "Kimberlite Ore",
+    "icon": "Icon_Kimberlite_Ore.png"
+  },
+  {
+    "id": "fractal_silicon",
+    "name": "Fractal Silicon",
+    "icon": "Icon_Fractal_Silicon.png"
+  },
+  {
+    "id": "optical_grating_crystal",
+    "name": "Optical Grating Crystal",
+    "icon": "Icon_Optical_Grating_Crystal.png"
+  },
+  {
+    "id": "spiniform_stalagmite_crystal",
+    "name": "Spiniform Stalagmite Crystal",
+    "icon": "Icon_Spiniform_Stalagmite_Crystal.png"
+  },
+  {
+    "id": "unipolar_magnet",
+    "name": "Unipolar Magnet",
+    "icon": "Icon_Unipolar_Magnet.png"
+  },
+  {
+    "id": "fire_ice",
+    "name": "Fire Ice",
+    "icon": "Icon_Fire_Ice.png",
+    "stored_energy": 4800000,
+    "chamber_efficiency": 1.4
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "icon": "Icon_Water.png",
+    "liquid": true
+  },
+  {
+    "id": "crude_oil",
+    "name": "Crude Oil",
+    "icon": "Icon_Crude_Oil.png",
+    "stored_energy": 4000000,
+    "chamber_efficiency": 1.2,
+    "liquid": true
+  },
+  {
+    "id": "hydrogen",
+    "name": "Hydrogen",
+    "icon": "Icon_Hydrogen.png",
+    "stored_energy": 8000000,
+    "chamber_efficiency": 2.0,
+    "liquid": true
+  },
+  {
+    "id": "deuterium",
+    "name": "Deuterium",
+    "icon": "Icon_Deuterium.png",
+    "stored_energy": 8000000,
+    "chamber_efficiency": 2.0,
+    "liquid": true
+  },
+  {
+    "id": "antimatter",
+    "name": "Antimatter",
+    "icon": "Icon_Antimatter.png",
+    "stored_energy": 375000000,
+    "liquid": true
+  },
+
+
+  {
+    "id": "iron_ingot",
+    "name": "Iron Ingot",
+    "icon": "Icon_Iron_Ingot.png"
+  },
+  {
+    "id": "copper_ingot",
+    "name": "Copper Ingot",
+    "icon": "Icon_Copper_Ingot.png"
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "icon": "Icon_Stone.png"
+  },
+  {
+    "id": "energetic_graphite",
+    "name": "Energetic Graphite",
+    "icon": "Icon_Energetic_Graphite.png",
+    "stored_energy": 6300000,
+    "chamber_efficiency": 1.6
+  },
+  {
+    "id": "high_purity_silicon",
+    "name": "High-Purity Silicon",
+    "icon": "Icon_High-Purity_Silicon.png"
+  },
+  {
+    "id": "titanium_ingot",
+    "name": "Titanium Ingot",
+    "icon": "Icon_Titanium_Ingot.png"
+  },
+  {
+    "id": "sulfuric_acid",
+    "name": "Sulfuric Acid",
+    "icon": "Icon_Sulfuric_Acid.png",
+    "liquid": true
+  },
+  {
+    "id": "refined_oil",
+    "name": "Refined Oil",
+    "icon": "Icon_Refined_Oil.png",
+    "stored_energy": 4400000,
+    "chamber_efficiency": 1.3,
+    "liquid": true
+  },
+  {
+    "id": "hydrogen_fuel_rod",
+    "name": "Hydrogen Fuel Rod",
+    "icon": "Icon_Hydrogen_Fuel_Rod.png",
+    "stored_energy": 40000000,
+    "chamber_efficiency": 3.0
+  },
+  {
+    "id": "deuteron_fuel_rod",
+    "name": "Deuteron Fuel Rod",
+    "icon": "Icon_Deuteron_Fuel_Rod.png",
+    "stored_energy": 40000000,
+    "chamber_efficiency": 3.0
+  },
+  {
+    "id": "antimatter_fuel_rod",
+    "name": "Antimatter Fuel Rod",
+    "icon": "Icon_Antimatter_Fuel_Rod.png",
+    "stored_energy": 7500000000,
+    "chamber_efficiency": 6.0
+  },
+  {
+    "id": "magnet",
+    "name": "Magnet",
+    "icon": "Icon_Magnet.png"
+  },
+  {
+    "id": "magnetic_coil",
+    "name": "Magnetic Coil",
+    "icon": "Icon_Magnetic_Coil.png"
+  },
+  {
+    "id": "glass",
+    "name": "Glass",
+    "icon": "Icon_Glass.png"
+  },
+  {
+    "id": "diamond",
+    "name": "Diamond",
+    "icon": "Icon_Diamond.png",
+    "stored_energy": 900000,
+    "chamber_efficiency": 0.5
+  },
+  {
+    "id": "crystal_silicon",
+    "name": "Crystal Silicon",
+    "icon": "Icon_Crystal_Silicon.png"
+  },
+  {
+    "id": "titanium_alloy",
+    "name": "Titanium Alloy",
+    "icon": "Icon_Titanium_Alloy.png"
+  },
+  {
+    "id": "plastic",
+    "name": "Plastic",
+    "icon": "Icon_Plastic.png"
+  },
+  {
+    "id": "organic_crystal",
+    "name": "Organic Crystal",
+    "icon": "Icon_Organic_Crystal.png",
+    "stored_energy": 1800000,
+    "chamber_efficiency": 0.8
+  },
+  {
+    "id": "graphene",
+    "name": "Graphene",
+    "icon": "Icon_Graphene.png",
+    "stored_energy": 96000,
+    "chamber_efficiency": 0.3
+  },
+  {
+    "id": "thruster",
+    "name": "Thruster",
+    "icon": "Icon_Thruster.png"
+  },
+  {
+    "id": "steel",
+    "name": "Steel",
+    "icon": "Icon_Steel.png"
+  },
+  {
+    "id": "circuit_board",
+    "name": "Circuit Board",
+    "icon": "Icon_Circuit_Board.png"
+  },
+  {
+    "id": "prism",
+    "name": "Prism",
+    "icon": "Icon_Prism.png"
+  },
+  {
+    "id": "electric_motor",
+    "name": "Electric Motor",
+    "icon": "Icon_Electric_Motor.png"
+  },
+  {
+    "id": "microcrystalline_component",
+    "name": "Microcrystalline Component",
+    "icon": "Icon_Microcrystalline_Component.png"
+  },
+  {
+    "id": "casimir_crystal",
+    "name": "Casimir Crystal",
+    "icon": "Icon_Casimir_Crystal.png"
+  },
+  {
+    "id": "strange_matter",
+    "name": "Strange Matter",
+    "icon": "Icon_Strange_Matter.png"
+  },
+  {
+    "id": "titanium_crystal",
+    "name": "Titanium Crystal",
+    "icon": "Icon_Titanium_Crystal.png"
+  },
+  {
+    "id": "carbon_nanotube",
+    "name": "Carbon Nanotube",
+    "icon": "Icon_Carbon_Nanotube.png",
+    "stored_energy": 84000,
+    "chamber_efficiency": 0.2
+  },
+  {
+    "id": "reinforced_thruster",
+    "name": "Reinforced Thruster",
+    "icon": "Icon_Reinforced_Thruster.png"
+  },
+  {
+    "id": "gear",
+    "name": "Gear",
+    "icon": "Icon_Gear.png"
+  },
+  {
+    "id": "plasma_exciter",
+    "name": "Plasma Exciter",
+    "icon": "Icon_Plasma_Exciter.png"
+  },
+  {
+    "id": "photon_combiner",
+    "name": "Photon Combiner",
+    "icon": "Icon_Photon_Combiner.png"
+  },
+  {
+    "id": "electromagnetic_turbine",
+    "name": "Electromagnetic Turbine",
+    "icon": "Icon_Electromagnetic_Turbine.png"
+  },
+  {
+    "id": "processor",
+    "name": "Processor",
+    "icon": "Icon_Processor.png"
+  },
+  {
+    "id": "annihilation_constraint_sphere",
+    "name": "Annihilation Constraint Sphere",
+    "icon": "Icon_Annihilation_Constraint_Sphere.png"
+  },
+  {
+    "id": "titanium_glass",
+    "name": "Titanium Glass",
+    "icon": "Icon_Titanium_Glass.png"
+  },
+  {
+    "id": "particle_broadband",
+    "name": "Particle Broadband",
+    "icon": "Icon_Particle_Broadband.png"
+  },
+  {
+    "id": "logistics_drone",
+    "name": "Logistics Drone",
+    "icon": "Icon_Logistics_Drone.png",
+    "flight_speed": 8,
+    "carrying_capacity": 25
+  },
+  {
+    "id": "foundation",
+    "name": "Foundation",
+    "icon": "Icon_Foundation.png"
+  },
+  {
+    "id": "critical_photon",
+    "name": "Critical Photon",
+    "icon": "Icon_Critical_Photon.png"
+  },
+  {
+    "id": "particle_container",
+    "name": "Particle Container",
+    "icon": "Icon_Particle_Container.png"
+  },
+  {
+    "id": "super_magnetic_ring",
+    "name": "Super-Magnetic Ring",
+    "icon": "Icon_Super-Magnetic_Ring.png"
+  },
+  {
+    "id": "graviton_lens",
+    "name": "Graviton Lens",
+    "icon": "Icon_Graviton_Lens.png"
+  },
+  {
+    "id": "space_warper",
+    "name": "Space Warper",
+    "icon": "Icon_Space_Warper.png"
+  },
+  {
+    "id": "plane_filter",
+    "name": "Plane Filter",
+    "icon": "Icon_Plane Filter.png"
+  },
+  {
+    "id": "quantum_chip",
+    "name": "Quantum Chip",
+    "icon": "Icon_Quantum_Chip.png"
+  },
+  {
+    "id": "logistics_vessel",
+    "name": "Logistics Vessel",
+    "icon": "Icon_Logistics_Vessel.png",
+    "carrying_capacity": 200
+  },
+  {
+    "id": "logistics_vessel",
+    "name": "Logistics Vessel",
+    "icon": "Icon_Logistics_Vessel.png",
+    "carrying_capacity": 200
+  },
+  {
+    "id": "solar_sail",
+    "name": "Solar Sail",
+    "icon": "Icon_Solar Sail.png",
+    "life_span": 1800
+  },
+  {
+    "id": "frame_material",
+    "name": "Frame Material",
+    "icon": "Icon_Frame_Material.png"
+  },
+  {
+    "id": "dyson_sphere_component",
+    "name": "Dyson Sphere Component",
+    "icon": "Icon_Dyson_Sphere_Component.png"
+  },
+  {
+    "id": "small_carrier_rocket",
+    "name": "Small Carrier Rocket",
+    "icon": "Icon_Small_Carrier_Rocket.png"
+  },
+
+
+  {
+    "id": "electromagnetic_matrix",
+    "name": "Electromagnetic Matrix",
+    "icon": "Icon_Electromagnetic_Matrix.png"
+  },
+  {
+    "id": "energy_matrix",
+    "name": "Energy Matrix",
+    "icon": "Icon_Energy_Matrix.png"
+  },
+  {
+    "id": "structure_matrix",
+    "name": "Structure Matrix",
+    "icon": "Icon_Structure_Matrix.png"
+  },
+  {
+    "id": "information_matrix",
+    "name": "Information Matrix",
+    "icon": "Icon_Information_Matrix.png"
+  },
+  {
+    "id": "gravity_matrix",
+    "name": "Gravity Matrix",
+    "icon": "Icon_Gravity_Matrix.png"
+  },
+  {
+    "id": "universe_matrix",
+    "name": "Universe Matrix",
+    "icon": "Icon_Universe_Matrix.png"
+  },
+
+
+  {
+    "id": "tesla_tower",
+    "name": "Tesla Tower",
+    "icon": "Icon_Tesla_Tower.png",
+    "connection_length": 22,
+    "supply_area": 10
+  },
+  {
+    "id": "wireless_power_tower",
+    "name": "Wireless Power Tower",
+    "icon": "Icon_Wireless_Power_Tower.png",
+    "connection_length": 45,
+    "supply_area": 6,
+    "work_power_consumption": 4800000,
+    "idle_power_consumption": 90000
+  },
+  {
+    "id": "satellite_substation",
+    "name": "Satellite Substation",
+    "icon": "Icon_Satellite_Substation.png",
+    "connection_length": 53,
+    "supply_area": 26
+  },
+  {
+    "id": "wind_turbine",
+    "name": "Wind Turbine",
+    "icon": "Icon_Wind_Turbine.png",
+    "connection_length": 16,
+    "supply_area": 7.2,
+    "work_power_generation": 300000,
+    "energy_capacity": 0
+  },
+  {
+    "id": "thermal_power_station",
+    "name": "Thermal Power Station",
+    "icon": "Icon_Thermal_Power_Station.png",
+    "power_generation": 2160000,
+    "energy_capacity": 0,
+    "efficiency": 0.8
+  },
+  {
+    "id": "accumulator",
+    "name": "Accumulator",
+    "icon": "Icon_Accumulator.png",
+    "work_power_consumption": 600000,
+    "work_power_generation": 600000,
+    "energy_capacity": 90000000
+  },
+  {
+    "id": "full_accumulator",
+    "name": "Accumulator",
+    "icon": "Icon_Full_Accumulator.png",
+    "work_power_consumption": 600000,
+    "work_power_generation": 600000,
+    "energy_capacity": 90000000,
+    "stored_energy": 90000000,
+    "chamber_efficiency": 2.0
+  },
+  {
+    "id": "energy_exchanger",
+    "name": "Energy Exchanger",
+    "icon": "Icon_Energy_Exchanger.png",
+    "work_power_consumption": 45000000,
+    "work_power_generation": 45000000,
+    "energy_capacity": 90000000,
+    "chamber_efficiency": 2.0
+  },
+  {
+    "id": "ray_receiver",
+    "name": "Ray Receiver",
+    "icon": "Icon_Ray_Receiver.png",
+    "work_power_generation": 5000000
+  },
+  {
+    "id": "artificial_star",
+    "name": "Artificial Star",
+    "icon": "Icon_Artificial_Star.png",
+    "work_power_generation": 75000000
+  },
+  {
+    "id": "conveyor_belt_mk_i",
+    "name": "Conveyor Belt Mk.I",
+    "icon": "Icon_Conveyor_Belt_Mk.I.png",
+    "transport_speed": 6
+  },
+  {
+    "id": "conveyor_belt_mk_ii",
+    "name": "Conveyor Belt Mk.II",
+    "icon": "Icon_Conveyor_Belt_Mk.II.png",
+    "transport_speed": 12
+  },
+  {
+    "id": "conveyor_belt_mk_iii",
+    "name": "Conveyor Belt Mk.III",
+    "icon": "Icon_Conveyor_Belt_Mk.III.png",
+    "transport_speed": 30
+  },
+  {
+    "id": "splitter",
+    "name": "Splitter",
+    "icon": "Icon_Splitter.png"
+  },
+  {
+    "id": "storage_mk_i",
+    "name": "Storage Mk.I",
+    "icon": "Icon_Storage_Mk.I.png",
+    "slot_capacity": 30
+  },
+  {
+    "id": "storage_mk_ii",
+    "name": "Storage Mk.II",
+    "icon": "Icon_Storage_Mk.II.png",
+    "slot_capacity": 60
+  },
+  {
+    "id": "storage_tank",
+    "name": "Storage Tank",
+    "icon": "Icon_Storage_Tank.png",
+    "fluid_capacity": 10000
+  },
+  {
+    "id": "planetary_logistics_station",
+    "name": "Planetary Logistics Station",
+    "icon": "Icon_Planetary_Logistics_Station.png",
+    "idle_power_consumption": 60000,
+    "energy_capacity": 180000000,
+    "slot_capacity": 3
+  },
+  {
+    "id": "interstellar_logistics_station",
+    "name": "Interstellar Logistics Station",
+    "icon": "Icon_Interstellar_Logistics_Station.png",
+    "idle_power_consumption": 60000,
+    "energy_capacity": 12000000000,
+    "slot_capacity": 5
+  },
+  {
+    "id": "orbit_collector",
+    "name": "Orbit Collector",
+    "icon": "Icon_Orbit_Collector.png"
+  },
+  {
+    "id": "em_rail_ejector",
+    "name": "EM-Rail Ejector",
+    "icon": "Icon_EM-Rail_Ejector.png",
+    "idle_power_consumption": 60000,
+    "work_power_consumption": 1200000,
+    "eject_speed": 0.3333333333
+  },
+  {
+    "id": "sorter_mk_i",
+    "name": "Sorter Mk.I",
+    "icon": "Icon_Sorter_Mk.I.png",
+    "idle_power_consumption": 9000,
+    "work_power_consumption": 18000,
+    "sort_speed": 1.5
+  },
+  {
+    "id": "sorter_mk_ii",
+    "name": "Sorter Mk.II",
+    "icon": "Icon_Sorter_Mk.II.png",
+    "idle_power_consumption": 9000,
+    "work_power_consumption": 36000,
+    "sort_speed": 3.0
+  },
+  {
+    "id": "sorter_mk_iii",
+    "name": "Sorter Mk.III",
+    "icon": "Icon_Sorter_Mk.III.png",
+    "idle_power_consumption": 9000,
+    "work_power_consumption": 72000,
+    "sort_speed": 6.0
+  },
+  {
+    "id": "mining_machine",
+    "name": "Mining Machine",
+    "icon": "Icon_Mining_Machine.png",
+    "idle_power_consumption": 24000,
+    "work_power_consumption": 420000,
+    "gathering_speed": 0.5
+  },
+  {
+    "id": "water_pump",
+    "name": "Water Pump",
+    "icon": "Icon_Water_Pump.png",
+    "idle_power_consumption": 12000,
+    "work_power_consumption": 300000,
+    "gathering_speed": 0.83333333333
+  },
+  {
+    "id": "oil_extractor",
+    "name": "Oil Extractor",
+    "icon": "Icon_Oil_Extractor.png",
+    "idle_power_consumption": 24000,
+    "work_power_consumption": 840000
+  },
+  {
+    "id": "oil_refinery",
+    "name": "Oil Refinery",
+    "icon": "Icon_Oil_Refinery.png",
+    "idle_power_consumption": 24000,
+    "work_power_consumption": 960000
+  },
+  {
+    "id": "miniature_particle_collider",
+    "name": "Miniature Particle Collider",
+    "icon": "Icon_Miniature_Particle_Collider.png",
+    "idle_power_consumption": 120000,
+    "work_power_consumption": 12000000
+  },
+  {
+    "id": "matrix_lab",
+    "name": "Matrix Lab",
+    "icon": "Icon_Matrix_Lab.png",
+    "idle_power_consumption": 12000,
+    "work_power_consumption": 480000,
+    "research_speed": 180
+  },
+  {
+    "id": "vertical_launching_silo",
+    "name": "Vertical Launching Silo",
+    "icon": "Icon_Vertical_Launching_Silo.png",
+    "idle_power_consumption": 60000,
+    "work_power_consumption": 18000000,
+    "launch_speed": 0.083333333333
+  },
+  {
+    "id": "assembling_machine_mk_i",
+    "name": "Assembling Machine Mk.I",
+    "icon": "Icon_Assembling_Machine_Mk.I.png",
+    "idle_power_consumption": 12000,
+    "work_power_consumption": 270000,
+    "production_speed": 1.0
+  },
+  {
+    "id": "assembling_machine_mk_ii",
+    "name": "Assembling Machine Mk.II",
+    "icon": "Icon_Assembling_Machine_Mk.II.png",
+    "idle_power_consumption": 15000,
+    "work_power_consumption": 380000,
+    "production_speed": 1.0
+  },
+  {
+    "id": "assembling_machine_mk_iii",
+    "name": "Assembling Machine Mk.III",
+    "icon": "Icon_Assembling_Machine_Mk.III.png",
+    "idle_power_consumption": 18000,
+    "work_power_consumption": 780000,
+    "production_speed": 1.5
+  },
+  {
+    "id": "smelter",
+    "name": "Smelter",
+    "icon": "Icon_Smelter.png",
+    "idle_power_consumption": 12000,
+    "work_power_consumption": 360000,
+    "production_speed": 1.0
+  },
+  {
+    "id": "chemical_plant",
+    "name": "Chemical Plant",
+    "icon": "Icon_Chemical_Plant.png",
+    "idle_power_consumption": 24000,
+    "work_power_consumption": 720000,
+    "production_speed": 1.0
+  },
+  {
+    "id": "fractionator",
+    "name": "Fractionator",
+    "icon": "Icon_Fractionator.png",
+    "idle_power_consumption": 18000,
+    "work_power_consumption": 720000,
+    "production_speed": 1.0
+  }
+]
